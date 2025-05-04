@@ -1,9 +1,9 @@
 # Sysinfo
 
-[![Build Status](https://github.com/zcalusic/sysinfo/actions/workflows/go.yml/badge.svg)](https://github.com/zcalusic/sysinfo/actions/workflows/go.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/zcalusic/sysinfo)](https://goreportcard.com/report/github.com/zcalusic/sysinfo)
-[![GoDoc](https://godoc.org/github.com/zcalusic/sysinfo?status.svg)](https://godoc.org/github.com/zcalusic/sysinfo)
-[![License](https://img.shields.io/badge/license-MIT-a31f34.svg?maxAge=2592000)](https://github.com/zcalusic/sysinfo/blob/master/LICENSE)
+[![Build Status](https://github.com/babbage88/sysinfo/actions/workflows/go.yml/badge.svg)](https://github.com/babbage88/sysinfo/actions/workflows/go.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/babbage88/sysinfo)](https://goreportcard.com/report/github.com/babbage88/sysinfo)
+[![GoDoc](https://godoc.org/github.com/babbage88/sysinfo?status.svg)](https://godoc.org/github.com/babbage88/sysinfo)
+[![License](https://img.shields.io/badge/license-MIT-a31f34.svg?maxAge=2592000)](https://github.com/babbage88/sysinfo/blob/master/LICENSE)
 [![Powered by](https://img.shields.io/badge/powered_by-Go-5272b4.svg?maxAge=2592000)](https://go.dev/)
 [![Platform](https://img.shields.io/badge/platform-Linux-009bde.svg?maxAge=2592000)](https://www.linuxfoundation.org/)
 
@@ -22,7 +22,7 @@ import (
 	"log"
 	"os/user"
 
-	"github.com/zcalusic/sysinfo"
+	"github.com/babbage88/sysinfo"
 )
 
 func main() {
@@ -77,7 +77,7 @@ It depends on Linux internals heavily, so there are no plans to support other op
 Just use go get.
 
 ```
-go get github.com/zcalusic/sysinfo
+go get github.com/babbage88/sysinfo
 ```
 
 There's also a very simple utility demonstrating sysinfo library capabilities. Start it (as superuser) to get pretty
@@ -85,7 +85,7 @@ formatted JSON output of all the info that sysinfo library provides. Due to its 
 utility also doubles down as an example of how to use the library.
 
 ```
-go get github.com/zcalusic/sysinfo/cmd/sysinfo
+go get github.com/babbage88/sysinfo/cmd/sysinfo
 ```
 
 --

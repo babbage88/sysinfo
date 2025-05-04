@@ -1,5 +1,5 @@
-module github.com/zcalusic/sysinfo
+module github.com/babbage88/sysinfo
 
-go 1.23
+go 1.24.2
 
 require github.com/google/uuid v1.6.0
